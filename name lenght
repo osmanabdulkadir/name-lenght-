@@ -1,0 +1,9 @@
+name = "ojjjjjdskjbafdjkbgfjkdbfdbbdjkbvfjkbjkdbvkjfbvjkdbjkfdbvjkdfvbjkfvbjkdjvf"
+print(len(name))
+
+if len(name) < 3:
+    print("error: name must  be at least 3 charaters long")
+elif len(name) > 50:
+    print("name must be a maximum of 50 charaters long")
+else:
+    print("name looks good")
