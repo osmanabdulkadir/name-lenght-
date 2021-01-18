@@ -1,0 +1,10 @@
+import random
+
+
+class Dice:
+    diceA = random.randint(1, 6)
+    diceB = random.randint(1, 6)
+
+    outputa = diceB
+    outputb = diceA
+    print(outputa, outputb)
